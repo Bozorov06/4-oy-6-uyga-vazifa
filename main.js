@@ -40,7 +40,17 @@
 // 4-masala
 // Funksiya yozing, u uchta sondan eng kattasini aniqlasin.
 // function sum(a,b,c) {
-    
+//     let max; 
+//     if(a>b){
+//         max = a
+//     }else{
+//         max = b
+//     }
+//     if(max<c){
+//         max = c
+//     }
+
+//     return max
 // }
 
 // ==================================================
@@ -139,7 +149,7 @@
 // 12-masala
 // Funksiya yozing, u berilgan ikki sondan kattasini ternary operator yordamida aniqlasin.
 // function sum(n, m) {
-//     n>m ? console.log(true) : console.log(false);
+//     n>m ? console.log(n) : console.log(m);
     
 // }
 // sum()
@@ -161,10 +171,9 @@
 // 14-masala
 // Funksiya yozing, u berilgan sonning kvadrati va kubini qaytaradi.
 // function sum(num) {
-//     return num**2 && num**3;
+//     console.log (num**2 && num**3);
 // }
-// console.log(sum());
-// shuni kiritganimda kubini uzi chiqib qolyapti
+
 
 
 // ==================================================
@@ -318,7 +327,6 @@
 // ==================================================
 // 28-masala
 // Funksiya yozing, u berilgan sonni xuddi shu tartibda 10 marta ko‘paytirib chiqaradi.
-// savolga tushunmadim
 
 // ==================================================
 // 29-masala
@@ -335,7 +343,10 @@
 // ==================================================
 // 30-masala
 // Funksiya yozing, u foydalanuvchi kiritgan ikkita sonning modulini hisoblaydi.
-// qanday qilishni bilmadim
+// function sum(a,b) {
+//     console.log(a);
+//     console.log(b);  
+// }
 
 
 // ==================================================
@@ -380,16 +391,24 @@
 // ==================================================
 // 34-masala
 // Funksiya yozing, u foydalanuvchi kiritgan sonning bo‘luvchilarini ekranga chiqaradi.
-// let num  = +prompt("sonni kiriting")
-// function sum() {
-    
+// function sum(num) {
+    // for (let i = 1; i <= num; i++){
+    //     if(num % i == 0){
+    //         console.log(i);
+            
+//         }
+//     }
 // }
 
 // ==================================================
 // 35-masala
 // Funksiya yozing, u berilgan sondan kattalik bo‘yicha kichik bo‘lgan barcha toq sonlarni chiqaradi.
-// function sum() {
-    
+// function sum(num) {
+//       for (let i = 1; i <= num; i++){
+//         if(num % 2 != 0){
+//             console.log(i);
+//          }
+//   }
 // }
 
 // ==================================================
@@ -452,7 +471,6 @@
 // ==================================================
 // 40-masala
 // Funksiya yozing, u foydalanuvchi kiritgan sonning barcha raqamlarini birma-bir chiqaradi.
-// let num = +prompt('sonni kiriting')
 // function sum() {
 // }
 //tushunmadim
@@ -461,14 +479,11 @@
 // ==================================================
 // 41-masala
 // Funksiya yozing, u foydalanuvchi kiritgan ikki sonning o‘zaro karrali ekanligini aniqlaydi.
-// let num = +prompt("sonni kiriting");
-// let num2 = +prompt("sonni kiriting");
-// function sum() {
-//     if (num%num2==0) {
-//         console.log(true);
-//     }else{
-//         console.log(false); 
+// function sum(num, num2) {
+//     if (num%num2==0 || num2%num==0) {
+//         return "karrali"
 //     }
+// return "karrali emas"
 // }
 
 // sum()
@@ -515,15 +530,8 @@
 // ==================================================
 // 46-masala
 // Funksiya yozing, u foydalanuvchi kiritgan sonning o‘z-o‘ziga karraligini aniqlaydi.
-// let num = +prompt("sonni kiriting");
-// function sum() {
-//     if (num%num==0) {
-//         console.log(true);
-        
-//     }else{
-//         console.log(false);
-        
-//     }
+// function sum(num) {
+//     
 // }
 // sum()
 // ==================================================
